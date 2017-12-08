@@ -6,7 +6,7 @@
 
     <groupId>com.coder4.sbmvt</groupId>
     <artifactId>pom-parent</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -28,6 +28,28 @@
 	        <artifactId>guava</artifactId>
 	        <version>23.0</version>
 	    </dependency>
+            <!-- sbmvt start -->
+	    <dependency>
+	        <groupId>com.coder4.sbmvt</groupId>
+	        <artifactId>redis</artifactId>
+	        <version>0.0.4</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>com.coder4.sbmvt</groupId>
+	        <artifactId>cache</artifactId>
+	        <version>0.0.5</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>com.coder4.sbmvt</groupId>
+	        <artifactId>rabbitmq</artifactId>
+	        <version>0.0.2</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>com.coder4.sbmvt</groupId>
+	        <artifactId>thrift-server</artifactId>
+	        <version>0.0.5</version>
+	    </dependency>
+            <!-- sbmvt end -->
         </dependencies>
     </dependencyManagement>
 
