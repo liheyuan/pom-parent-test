@@ -6,7 +6,7 @@
 
     <groupId>com.coder4.sbmvt</groupId>
     <artifactId>pom-parent</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -48,6 +48,16 @@
 	        <groupId>com.coder4.sbmvt</groupId>
 	        <artifactId>thrift-server</artifactId>
 	        <version>0.0.5</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>com.coder4.sbmvt</groupId>
+	        <artifactId>database</artifactId>
+	        <version>0.0.1</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>com.h2database</groupId>
+	        <artifactId>h2</artifactId>
+	        <version>1.4.196</version>
 	    </dependency>
             <!-- sbmvt end -->
         </dependencies>
